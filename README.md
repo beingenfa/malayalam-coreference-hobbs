@@ -1,5 +1,7 @@
 # Malayalam Pronominal Anaphoric Coreference Resolution
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17508334.svg)](https://zenodo.org/records/17508334)
+
 An exploratory implementation applying Hobbs' algorithm for resolving pronominal anaphoric coreferences in Malayalam text. 
 
 🏆 **Best Paper Award @ [ABACon'20 (Abacus Conference)](docs/conference/PET3-107_Ms.Enfa%20Rose%20George_Best%20Paper%20Award.pdf)**
@@ -30,6 +32,24 @@ result = resolver.find_coref(text)
 
 See `src/example_usage.py` for details.
 
+### Citation
+
+If you use this work, please cite:
+```bibtex
+@software{enfa_fane_2025_17508334,
+  author       = {Enfa Fane and
+                  Abraham, Mathews},
+  title        = {beingenfa/malayalam-coreference-hobbs: public
+                   archive
+                  },
+  month        = nov,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.17508334},
+  url          = {https://doi.org/10.5281/zenodo.17508334},
+}
+```
 ### External Tools
 
 This work would not have been possible without the following Malayalam NLP tools:

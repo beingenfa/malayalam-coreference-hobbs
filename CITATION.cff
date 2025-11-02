@@ -1,0 +1,18 @@
+abstract: <p>An exploratory implementation applying Hobbs' algorithm for resolving
+  pronominal anaphoric coreferences in Malayalam text.</p>
+authors:
+- affiliation: University Of Arizona
+  family-names: Enfa Fane
+- affiliation: Rajagiri School Of Engineering
+  family-names: Abraham
+  given-names: Mathews
+cff-version: 1.2.0
+date-released: '2025-11-02'
+doi: 10.5281/zenodo.17508334
+license:
+- mit
+message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/beingenfa/malayalam-coreference-hobbs/tree/1.0
+title: 'beingenfa/malayalam-coreference-hobbs: public archive'
+type: software
+version: '1.0'
